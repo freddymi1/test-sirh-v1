@@ -71,6 +71,7 @@ export const PostAbsenceUx: React.FC<PostAbsenceUxProps> = ({
           required
           error={isSubmitted && inputValues.periode === ''}
           name="periode"
+          type="number"
           value={inputValues.periode}
           id="outlined-required"
           label="Période"
