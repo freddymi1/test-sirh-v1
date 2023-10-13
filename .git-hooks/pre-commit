@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+# Check if changes occur in project, if not, skip the pre-commit hook
+if git diff --cached --quiet; then
+    echo "PRE-COMMIT HOOK - Nothing to check, skipping"
+    exit 0
+else
+    echo "PRE-COMMIT HOOK - Change detected, running ..."
+    .git-hooks/pre-commit-script.sh
+fi
