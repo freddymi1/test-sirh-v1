@@ -74,7 +74,7 @@ export const TopBarItem: React.FC<TopBarItemProps> = ({
       </Typography>
       <Tooltip title="Open settings">
         <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-          <Image src="/images/Photo.png" alt="Soldes" width={42} height={42} />
+          <Image src="images/Photo.png" alt="Soldes" width={42} height={42} />
         </IconButton>
       </Tooltip>
       <Menu
