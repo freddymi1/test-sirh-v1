@@ -36,8 +36,6 @@ export const SideNav: React.FC<SideNavProps> = ({
   NavigateToPage
 }) => {
   const classes = useStyles()
-  const imageWidth = `100%`
-  const imageHeight = '100%'
   return (
     <Drawer
       variant="permanent"

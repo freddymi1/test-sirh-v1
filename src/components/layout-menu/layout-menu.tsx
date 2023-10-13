@@ -14,9 +14,9 @@ export default function LayoutMenu({
 
   const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null)
 
-  const [isOpen, setIsOpen] = useState<boolean>(true)
-  const [isOpenMenu, setIsOpenMenu] = useState<boolean>(true)
-  const [isOpenSubMenu, setIsOpenSubMenu] = useState<boolean>(true)
+  const [isOpen, setIsOpen] = useState<boolean>(false)
+  const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false)
+  const [isOpenSubMenu, setIsOpenSubMenu] = useState<boolean>(false)
 
   const router = useRouter()
 
