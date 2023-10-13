@@ -1,7 +1,6 @@
 import { SideMenuProps } from '@/interfaces/interfaces'
 import { ExpandMore } from '@mui/icons-material'
 import {
-  Divider,
   ListItem,
   ListItemButton,
   ListItemIcon,

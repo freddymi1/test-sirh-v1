@@ -100,7 +100,7 @@ export const SideNav: React.FC<SideNavProps> = ({
         component={`div`}
         sx={{ position: 'absolute', bottom: 0, left: 0, zIndex: 0, p: 0 }}
       >
-        <img src="/images/Graphic.svg" alt="image-footer" />
+        <img src="images/Graphic.svg" alt="image-footer" />
       </Typography>
     </Drawer>
   )

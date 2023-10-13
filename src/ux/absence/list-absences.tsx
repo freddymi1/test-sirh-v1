@@ -12,7 +12,6 @@ import {
 } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import { makeStyles } from '@mui/styles'
-import Image from 'next/image'
 import React from 'react'
 
 const useStyles = makeStyles({
@@ -123,21 +122,21 @@ export const ListAbsences: React.FC<ListAbsencesProps> = ({
                   }}
                 >
                   <ActionButtons
-                    img="/images/Ajuster.svg"
+                    img="images/Ajuster.svg"
                     width={40}
                     height={40}
                     alt="Ajuster"
                     action={() => {}}
                   />
                   <ActionButtons
-                    img="/images/Transferer.svg"
+                    img="images/Transferer.svg"
                     width={40}
                     height={40}
                     alt="Transferer"
                     action={() => {}}
                   />
                   <ActionButtons
-                    img="/images/Solder.svg"
+                    img="images/Solder.svg"
                     width={40}
                     height={40}
                     alt="Solder"
