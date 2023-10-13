@@ -15,17 +15,13 @@ cd test-sirh
 - 3rd, install the module:
 
 ```bash
-npm install
-# if error
-npm install --legacy-peer-deps
-# or
-npm install --force
+yarn install
 ```
 
 - 4rd, run the development server:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## MODULES
@@ -34,7 +30,7 @@ _prettier_
 Use this module to formating the code, to run the prettier, use this commande
 
 ```bash
-npm run format
+yarn format
 ```
 
 _eslint-plugin-import_
@@ -44,7 +40,7 @@ _eslint-plugin-filenames_ and _eslint-plugin-check-file_
 Verify the filename and variable or constant, to use this module, run:
 
 ```bash
-npm run check-lint
+yarn check-lint
 ```
 
 ## git-hooks Install
