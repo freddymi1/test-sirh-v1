@@ -1,0 +1,16 @@
+.drawerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+.bg {
+  background: linear-gradient(to bottom, #094694, #0281e3);
+  /* Add other CSS properties for the element */
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+}
